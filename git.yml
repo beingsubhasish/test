@@ -1,0 +1,27 @@
+# This is a comment. YAML ignores lines starting with #.
+# save this as config.yml
+
+app_name: "SuperApp"
+version: 1.5
+is_debug_mode: true  # Boolean (true/false)
+
+# A Dictionary (Nested key-value pairs)
+server:
+  host: "192.168.1.10"
+  port: 8080
+  timeout_seconds: 30
+
+# A List (Array) using dashes
+supported_languages:
+  - "English"
+  - "Hindi"
+  - "Spanish"
+
+# A List of Objects (Complex list)
+users:
+  - name: "Subhasish"
+    role: "Admin"
+    id: 101
+  - name: "Shadow"
+    role: "User"
+    id: 102
